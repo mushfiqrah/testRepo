@@ -22,8 +22,8 @@ public class Login {
 	public void i_put_my_email_ID_password_select_sign_in_choose_Inbox() throws Throwable {
 	 driver.findElement(By.name("username")).sendKeys("mushfiqrahman11@yahoo.com");
 	driver.findElement(By.name("signin")).click();
-	driver.findElement(By.name("password")).sendKeys("numanmd11");
-	driver.findElement(By.xpath("//button[@type='submit']")).click();
+	//driver.findElement(By.name("password")).sendKeys("numanmd11");
+	//driver.findElement(By.xpath("//button[@type='submit']")).click();
 		}
 
 	@Then("^I can see my new and undeleted emails$")
